@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+	<script src="js/store-data.js"></script>
+	
+</head>
+<body>
+	<div class="title">
+		STORE LOCATOR
+	</div>
+
+	<div class="search-container">
+		<div class="search">
+			<input id="zip-code-input" type="" name="" placeholder="Search Zip">
+			<span onclick="searchStores()"><i class="fas fa-search"  ></i></span>
+		</div>
+	</div>
+	<div class="stores-list-container">
+		<div class="stores-list">
+			
+		</div>
+		
+	</div>
+
+
+<div id="map"></div>
+
+<script src="js/index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyjFEG5CPaRKG9TQMJ8NtCF62f7JnL0NQ&callback=initMap"
+    async defer></script>
+
+</body>
+</html>

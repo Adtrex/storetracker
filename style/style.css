@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map{
+	height: 100vh;
+}
+
+.title{
+	position: absolute;
+	top:120px;
+	left: 100px;
+	font-size: 50px;
+	z-index: 30;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FFC72C;
+	font-family: 'Lato', sans-serif;
+}
+
+.search-container{
+	width: 400px;
+	height: 60px;
+	left: 100px;
+	background-color: #454e53;
+	position: absolute;
+	z-index: 30;
+	top: 200px;
+	border-radius: 30px;
+	opacity: 0.9;
+
+}
+
+.search{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+	padding-right:20px;
+
+}
+input{
+width: 100%;
+border: none;
+background-color: transparent;
+font-size: 20px;
+color: #fff;
+}
+
+.search i{
+	color: white;
+	font-size: 25px;
+}
+.store-phone-number {
+	color: #fff;
+	display: flex;
+	flex-grow: 1;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+.store-container{
+	cursor: pointer;
+}
+
+.stores-list-container{
+	width: 400px;
+	background-color: white;
+	position: absolute;
+	z-index: 30;
+	top: 290px;
+	border-radius: 30px;
+	bottom: 20px;
+	left: 100px;
+	  overflow: auto;
+}
+hr{
+	width: 90%;
+}
+ p{
+	font-size: 20px;
+	color: #FFC72C;
+}
+.stores-list-container{
+	background-color: #454e53;
+	opacity: 0.9;
+}
+.store-address{
+background-color: transparent;
+
+}
+.store-container{
+	background-color: transparent;
+}
+
+.store-info-contaner{
+	display: flex;
+background-color: transparent;
+
+
+}
+.info1{
+	display: flex;
+	flex-grow: 1;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: transparent;
+
+
+
+}
+.no1{
+	padding-left: 20px;
+	padding-right: 20px;
+	
+	display: flex;
+justify-content: center;
+align-items: center;
+background-color: transparent;
+}
+.no1 i{
+	color: #FFC72C;
+}
+.info1-block{
+	display: block;
+}
+.info-window{
+    width: 200px;
+    height: 95px;
+    background-color: #fff;
+    color: red;
+}
+.info-name{
+    font-size: 15px;
+
+}
+.index{
+	display: none;
+}
+
+.store-container-hover{
+	width: 90%;
+
+	
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	border-radius: 18px;
+	transition: all 0.5s ;
+
+}
+.store-container-hover:hover{
+	background-color: #dc143c;
+	opacity: 0.5;
+}
